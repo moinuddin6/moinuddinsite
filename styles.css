@@ -13,6 +13,11 @@ body {
     width: 100%;
 }
 
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 nav {
     background-color: var(--primary-color);
     color: #f3f4f6;
@@ -28,7 +33,12 @@ nav {
     text-decoration: none;
     color: inherit;
 }
- ul {
-    text-align: right;
+
+.list-non-bullet {
     list-style: none;
- }
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
