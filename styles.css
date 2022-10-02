@@ -18,6 +18,9 @@ body {
     padding-right: 1rem;
 }
 
+
+/** navigation **/
+
 nav {
     background-color: var(--primary-color);
     color: #f3f4f6;
@@ -27,6 +30,7 @@ nav {
 
 .nav-brand {
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .nav-brand a {
@@ -40,5 +44,18 @@ nav {
 
 .list-item-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 1.5rem;
+}
+
+
+.navigation .link {
+    color: #f3f4f6;
+}
+
+.nav-pills {
+    text-align: right;
+}
+
+.link-active {
+    font-weight: bold;
 }
