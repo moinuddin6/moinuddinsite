@@ -22,6 +22,25 @@ body {
     max-width: 600px;
     margin: auto;
 }
+/* links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    align-items: center;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
 
 /** navigation **/
 
@@ -116,7 +135,7 @@ footer {
     color: white;
 }
 
-.link {
+footer .link {
     color: #f3f4f6;
 }
 
