@@ -59,3 +59,34 @@ nav {
 .link-active {
     font-weight: bold;
 }
+
+/**Hero section**/
+
+.hero {
+    padding: 2rem;
+    text-align: center;
+   
+}
+
+.intro {
+    font-size: 3rem;
+    word-break: normal;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+   
+}
+
+span {
+    color: var(--primary-color);
+}
+
+.hero_image {
+    max-width: 80%;
+    width: fit-content;
+    display: block;
+    margin: auto;
+
+}
+
+
+
