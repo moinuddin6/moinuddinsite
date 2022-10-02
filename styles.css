@@ -107,3 +107,19 @@ section h1 {
     background-color: var(--off-white);
 }
 
+/* footer */
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.link {
+    color: #f3f4f6;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
