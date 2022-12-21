@@ -21,6 +21,7 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+    padding-bottom: 2rem;
 }
 /* links */
 
